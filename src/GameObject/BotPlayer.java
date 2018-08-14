@@ -33,15 +33,15 @@ public class BotPlayer extends Player {
 				break;
 
 			case MEDIUM:
-				speed = 24;
-				break;
-
-			case HARD:
 				speed = 28;
 				break;
 
+			case HARD:
+				speed = 34;
+				break;
+
 			case UNFAIR:
-				speed = 32;
+				speed = 44;
 				break;
 
 			case UNBEATABLE:
